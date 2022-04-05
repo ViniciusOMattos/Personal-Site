@@ -44,7 +44,13 @@
     background: rgb(194, 192, 192);
     border: 1px solid rgb(51, 50, 50);
     cursor: pointer;
+    transition: 0.2s;
 }
+
+.ani-btn:hover {
+    transform: translateY(-0.2rem);
+}
+
 /* End of section 1 */
 
 
@@ -57,20 +63,9 @@
 }
 /* s2 Title */
 .s2-title {
+    letter-spacing: 0.3rem;
     text-align: center;
     text-transform: uppercase;
-}
-
-/* s2 Menu */
-.s2-projects-menu {
-    display: flex;
-    justify-content:space-evenly;
-    padding: 0.5vw 10vw 0.5vw 10vw;
-}
-.s2-projects-menu button {
-    width: 100%;
-    cursor: pointer;
-    margin: 0vw 0.2vh 0vh 0vh;
 }
 
 /* s2 Project list */
@@ -80,18 +75,25 @@
 }
 
 .project-card {
-    width: 300px;
-    height: 450px;
-    margin: 1rem;
+    width: 200px;
+    height: 350px;
+    margin: 0.5rem;
     padding: 0.5rem;
+    border: solid 1px rgb(24, 24, 24);
     background-color: #a0a0a0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 1rem 1rem 1rem #000;
+    box-shadow: 1rem 1rem 1rem rgb(92, 92, 92);
     position: relative;
     transition: 0.5s, box-shadow 0.5s;
+}
+
+.project-card:hover{
+    background-color: #5e5e5e;
+    transform: rotateY(20deg) skewX(-2deg) translateY(-1rem);
+    box-shadow: 2rem 2rem 2rem rgb(63, 63, 63);
 }
 
 .card-name {
@@ -100,11 +102,13 @@
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     color: #111;
-    margin: 2rem 0;
 }
 
 .card-img {
-    width: 100%;
+    border: solid 1px rgb(24, 24, 24);
     width: 200px;
+    height: 100%;
 }
 /* End of section 2 */
+
+/* Separar botoes s1 de botoes s2 */
