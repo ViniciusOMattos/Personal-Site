@@ -3,6 +3,27 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+/* Navbar menu */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: fixed;
+    background: linear-gradient(#fff, rgb(194, 192, 192));
+}
+.navbar-link {
+    margin: 0.5rem 1rem;
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+/* End of navbar */
+
 /* Section 1 */
 .section-1 {
     display: flex;
