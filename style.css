@@ -3,14 +3,14 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
-/* Navbar menu */
+
+/* Navbar */
 .navbar {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:right;
     align-items:center;
     position: fixed;
-    background: linear-gradient(#fff, rgb(194, 192, 192));
 }
 .navbar-link {
     margin: 0.5rem 1rem;
@@ -24,77 +24,52 @@
 }
 /* End of navbar */
 
-/* Section 1 */
-.section-1 {
+
+/* Home */
+.home-section {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
-    padding: 5vw 20vw 5vw 20vw;
     background: linear-gradient(#fff, rgb(194, 192, 192));
 }
-
-.s1-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 2px solid rgb(51, 50, 50);
-    box-shadow: 0 0 30px rgba(44, 43, 43, 0.3);
-}
-
-.s1-pg-div {
-    width: 300px;
-    height: 250px;
+.home-container {
+    padding: 10rem 5rem;
     margin-top: 2vh;
 }
-
-.s1-pg-div h1 {
+.home-container h1 {
+    font-size: 2rem;
     width: 100%
 }
-
-
-.s1-pg-div p {
+.home-container p {
     width: 100%;
     text-align:justify;
     text-shadow: 0 0 30px rgba(44, 43, 43, 0.3);
 }
-
-.ani-btn {
-    margin-top: 1vh;
-    margin-right: 0.5vh;
-    padding: 2px 4px;
-    background: rgb(194, 192, 192);
-    border: 1px solid rgb(51, 50, 50);
-    cursor: pointer;
-    transition: 0.2s;
+.social-btns {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
 }
-
-.ani-btn:hover {
-    transform: translateY(-0.2rem);
-}
-
-/* End of section 1 */
+/* End of Home */
 
 
-/* Section 2 */
-.section-2 {
-    padding: 0.5rem 2rem 0.5rem 2rem;
+/* Works */
+.works-section {
+    padding: 4rem 2rem 4rem 2rem;
     display: flex;
     flex-direction: column;
-    background:rgb(224, 224, 224);
+    background:rgb(247, 247, 247);
 }
-/* s2 Title */
-.s2-title {
+.works-title {
     letter-spacing: 0.3rem;
     text-align: center;
     text-transform: uppercase;
 }
-
-/* s2 Project list */
-.s2-project-container {
+.works-container {
+    padding: 2rem 0rem;
     display: flex;
     justify-content:space-evenly;
 }
-
 .project-card {
     width: 200px;
     height: 350px;
@@ -110,13 +85,11 @@
     position: relative;
     transition: 0.5s, box-shadow 0.5s;
 }
-
 .project-card:hover{
     background-color: #5e5e5e;
     transform: rotateY(20deg) skewX(-2deg) translateY(-1rem);
     box-shadow: 2rem 2rem 2rem rgb(63, 63, 63);
 }
-
 .card-name {
     font-size: 1rem;
     font-weight: 900;
@@ -124,12 +97,39 @@
     letter-spacing: 0.3rem;
     color: #111;
 }
-
 .card-img {
     border: solid 1px rgb(24, 24, 24);
     width: 200px;
     height: 100%;
 }
-/* End of section 2 */
+.card-btn {
+    margin-top: 1vh;
+    margin-right: 0.5vh;
+    padding: 2px 4px;
+    background: rgb(194, 192, 192);
+    border: 1px solid rgb(51, 50, 50);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.card-btn:hover {
+    transform: translateY(-0.2rem);
+}
+/* End of Works */
+
+
+/* Case study */
+
+/* End of Case study */
+
+
+/* Contact */
+.contact-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid rgb(51, 50, 50);
+    box-shadow: 0 0 30px rgba(44, 43, 43, 0.3);
+}
+/* End of contact */
 
 /* Separar botoes s1 de botoes s2 */
