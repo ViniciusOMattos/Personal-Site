@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(255, 255, 255), rgb(194, 192, 192));
+}
+/* Navbar */
+.navbar {
+    background-color: rgb(199, 199, 199);
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    position: fixed;
+    z-index: 99;
+}
+.navbar-link {
+    margin: 0.5rem 1rem;
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    transition: 0.2s;
+}
+
+.navbar-link:hover {
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(74, 74, 95), 0 0 0.2em rgb(123, 123, 167);
+    color: #fff;
+}
+/* End of navbar */
+
+
+/* Home */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.home-container {
+    padding: 10rem 5rem;
+    margin-top: 2vh;
+    
+}
+.home-container h1 {
+    font-size: 2.5rem;
+    width: 100%
+}
+.home-container p {
+    width: 100%;
+    text-align:justify;
+}
+.social-btns {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.home-section-footer {
+    letter-spacing: 0.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 3s;
+}
+
+
+/* Contact */
+.contact-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid rgb(51, 50, 50);
+    box-shadow: 0 0 30px rgba(44, 43, 43, 0.3);
+}
+/* End of contact */
+
+/* Separar botoes s1 de botoes s2 */

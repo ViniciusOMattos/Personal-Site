@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Vinicius Mattos</title>
@@ -13,13 +13,13 @@
 <body>
     <!-- Navbar Menu -->
     <nav class="navbar">
-        <a href="#" class="navbar-link">
+        <a href="#" class="navbar-link" onclick="htmlPull('static/home.html')">
             <i class="fas fa-home"></i>
             <span>Home</span>
         </a>
-        <a href="#" class="navbar-link">
+        <a href="#" class="navbar-link" onclick="htmlPull('static/recent-works.html')">
             <i class="fa-brands fa-connectdevelop"></i>
-            <span>Projects</span>
+            <span >Projects</span>
         </a>
         <a href="#" class="navbar-link">
             <i class="fa-regular fa-comment"></i>
@@ -47,26 +47,19 @@
         <!-- End of home -->
 
 
-        <!-- Works -->
-        <div class="works-section">
-            <div class="works-title">
-                <h1>My Recent Works</h1>
-                <p>A few projects i've worked on recently.</p>
-            </div>
+        <!-- Home Container -->
+        <div class="home-section">
 
+            <div id="content-id"></div>
 
-            <hr>
-            <recent-works></recent-works>
-            <hr>
-
-            
-            <div class="works-title">
+            <div class="home-section-footer">
                 <p>Want to see more ?</p>
             </div>
         </div>
-        <!-- End of Works -->
+        <!-- End of Home Container -->
     </div>
 
-    <script src="data/RecentWorks.js"></script>
+    <script src="static/scripts/htmlPull.js">
+    </script>
 </body>
 </html>
