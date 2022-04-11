@@ -1,4 +1,4 @@
-/* Works */
+/* Recent Works */
 .works-section {
     padding: 4rem 2rem 4rem 2rem;
     display: flex;
@@ -66,4 +66,4 @@
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(74, 74, 95), 0 0 0.2em rgb(123, 123, 167);
     color: white;
 }
-/* End of Works */
+/* End of Recent Works */

@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(rgb(255, 255, 255), rgb(194, 192, 192));
 }
+
 /* Navbar */
 .navbar {
     background-color: rgb(199, 199, 199);
@@ -36,22 +37,22 @@ body {
 /* End of navbar */
 
 
-/* Home */
-.home-section {
+/* Header */
+.header-section {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
 }
-.home-container {
+.header-container {
     padding: 10rem 5rem;
     margin-top: 2vh;
     
 }
-.home-container h1 {
+.header-container h1 {
     font-size: 2.5rem;
     width: 100%
 }
-.home-container p {
+.header-container p {
     width: 100%;
     text-align:justify;
 }
@@ -60,22 +61,4 @@ body {
     font-size: 2rem;
     padding-bottom: 0.5rem;
 }
-.home-section-footer {
-    letter-spacing: 0.3rem;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 3s;
-}
-
-
-/* Contact */
-.contact-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 2px solid rgb(51, 50, 50);
-    box-shadow: 0 0 30px rgba(44, 43, 43, 0.3);
-}
-/* End of contact */
-
-/* Separar botoes s1 de botoes s2 */
+/* End of Header */
