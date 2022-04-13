@@ -90,12 +90,13 @@ body {
 /* Footer */
 .footer-container {
     background-color: rgb(31, 31, 31);
-    color: rgb(207, 207, 207);
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content:center;
     align-items:center;
-    z-index: 99;
+}
+.footer-container p {
+    color: rgb(207, 207, 207);
 }
 /* End of Footer */
