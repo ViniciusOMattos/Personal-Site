@@ -86,3 +86,16 @@ body {
     padding-bottom: 0.5rem;
 }
 /* End of Header */
+
+/* Footer */
+.footer-container {
+    background-color: rgb(31, 31, 31);
+    color: rgb(207, 207, 207);
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    z-index: 99;
+}
+/* End of Footer */
