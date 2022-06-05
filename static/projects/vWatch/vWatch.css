@@ -1,0 +1,15 @@
+/* Recent Works */
+.header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.header-container {
+    padding: 2rem 2rem;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color: rgb(22, 22, 22);
+}
